@@ -54,24 +54,3 @@ The bot can upload images to the following image hosting platforms:
 +------------------+----------------------------+
 | ``ImaRide``      | https://www.imageride.net  |
 +------------------+----------------------------+
-
-Trackers
-========
-
-The Italian tracker: a multitude of people from diverse technical and social backgrounds,
-united by a shared passion for torrents and more
-
-+------------------+----------------------------+
-| **Trackers**     | **Description**            |
-+==================+============================+
-| ``ITT``          | https://itatorrents.xyz/   |
-+------------------+----------------------------+
-
-
-.. image:: https://img.shields.io/badge/Telegram-Join-blue?logo=telegram
-   :target: https://t.me/+hj294GabGWJlMDI8
-   :alt: Unisciti su Telegram
-
-.. image:: https://img.shields.io/discord/1214696147600408698?label=Discord&logo=discord&style=flat
-   :target: https://discord.gg/Skvune9P
-   :alt: Discord Server
