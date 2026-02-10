@@ -32,55 +32,6 @@ It performs the following tasks:
 - Add a custom title to your seasons
 - Generate info for a title using MediaInfo
 
-unit3dup can grab the first page, convert it to an image (using xpdf),
-and then the bot can upload it to an image host, then add the link to the torrent page description.
-
-
-Install and Upgrade
-===================
-
-- pip install unit3dup --upgrade
-
-Windows Dependencies
---------------------
-1. Download and unzip https://www.ffmpeg.org/download.html and add its folder to
-   PATH environment user variable
-
-
-Only for pdf
-~~~~~~~~~~~~
-1. Download and unzip poppler for Windows from https://github.com/oschwartz10612/poppler-windows/releases
-2. Put the folder 'bin' in the system path (e.g. ``C:\poppler-24.08.0\Library\bin``)
-3. *Close and reopen a new console window*
-4. Test it: Run ``pdftocairo`` in the terminal
-
-
-Ubuntu/Debian Dependencies
---------------------------
-- sudo apt install ffmpeg
-
-Only for pdf
-~~~~~~~~~~~~
-- sudo apt install poppler-utils
-
-
-RUN
-======
-
-.. code-block:: python
-
-   unit3dup -u <filepath>
-   unit3dup -f <folderpath>
-   unit3dup -scan <folderpath>
-
-
-
-DOC
-===
-
-Link `Unit3DUP <https://unit3dup.readthedocs.io/en/latest/index.html#>`_
-
-
 ImageHost
 =========
 
@@ -124,22 +75,3 @@ united by a shared passion for torrents and more
 .. image:: https://img.shields.io/discord/1214696147600408698?label=Discord&logo=discord&style=flat
    :target: https://discord.gg/Skvune9P
    :alt: Discord Server
-
-
-
-🎯 Streaming Community
-======================
-
- `goto GitHub Project <https://github.com/Arrowar/StreamingCommunity>`_
-
-An open-source script for downloading movies, TV shows, and anime from various websites,
-built by a community of people with a shared interest in programming.
-
-.. image:: https://img.shields.io/badge/Telegram-Join-blue?logo=telegram
-   :target: https://t.me/+hj294GabGWJlMDI8
-   :alt: Unisciti su Telegram
-
-.. image:: https://img.shields.io/badge/StreamingCommunity-blue.svg
-   :target: https://github.com/Arrowar/StreamingCommunity
-   :alt: StreamingCommunity Badge
-
